@@ -20,8 +20,8 @@ public class ClientRegistrationConfig extends WebSecurityConfigurerAdapter {
 
     private ClientRegistration clientRegistration() {
         return CommonOAuth2Provider.GITHUB.getBuilder("github")
-                .clientId("a7553955a0c534ec5e6b")
-                .clientSecret("1795b30b425ebb79e424afa51913f1c724da0dbb")
+                .clientId("888acf03024240bd39ed")
+                .clientSecret("f244b4d6c08671a40fbacb20f32bd73804201166")
                 .build();
     }
 
